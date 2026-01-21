@@ -1,10 +1,9 @@
-const API_URL = import.meta.env.VITE_API_URL;
+const PROXY_URL = '/api'; 
 
 export const deliveryReceiptService = {
   async fetchReceipt(tripNumber) {
     try {
-      const response = await fetch(`${API_URL}/trackabout/pod?NoSuratJalan=${tripNumber}`);
-
+      const response = await fetch(`${PROXY_URL}/trackabout/pod/${tripNumber}`);
       const rawData = await response.json();
 
       if (rawData.error) {
