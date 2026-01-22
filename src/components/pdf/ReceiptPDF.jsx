@@ -7,12 +7,12 @@ import ReceiptFooter from './ReceiptFooter';
 
 Font.register({
     family: 'Verdana',
-    src: '/fonts/Verdana.ttf',
+    src: '/pod/fonts/Verdana.ttf',
 });
 
 Font.register({
     family: 'Verdana-Bold',
-    src: '/fonts/Verdana-Bold.ttf',
+    src: '/pod/fonts/Verdana-Bold.ttf',
 });
 
 const ReceiptPdf = ({ data }) => {

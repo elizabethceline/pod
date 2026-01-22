@@ -23,7 +23,7 @@ const ReceiptHeader = ({ data }) => {
                 <View style={styles.headerImageBox}>
                     <Image
                         style={[styles.headerImage, { width: '150%', height: '150%' }]}
-                        src="/images/logo.jpeg"
+                        src="/pod/images/logo.jpeg"
                     />
                 </View>
                 <View style={styles.headerImageBox}>
